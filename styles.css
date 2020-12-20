@@ -2,6 +2,7 @@
 
 body {
   background-color: #ffffff;
+  width: 1500px;
 }
 header {
   display: flex;
@@ -54,12 +55,13 @@ nav ul .flex1 a {
   margin-left: -52px;
   margin-top: 60px;
 }
-#top1 {
+#top1  {
   display: flex;
-  justify-content: space-around;
-  margin-left: 100px;
-  margin-top: 102px;
+  justify-content: space-evenly;
+
 }
+#top 
+
 #top1 .flex2 h1 {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
@@ -78,9 +80,10 @@ nav ul .flex1 a {
   color: #333333;
   max-width: 500px;
 }
-#top2 .flex3,
-.flex4 {
+#top2 
+ {
   display: flex;
   justify-content: space-around;
-  margin-top: 500px;
+margin-top: 500px;
+ 
 }
