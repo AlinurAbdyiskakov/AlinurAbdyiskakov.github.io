@@ -195,6 +195,12 @@ main p {
   color: #ffffff;
   max-width: 600px;
 }
+main button{
+  border: none;
+  margin: 0 10px 0 0;
+  box-shadow: none;
+  border-radius: 5px;
+}
 footer {
   display: flex;
   justify-content: space-around;
