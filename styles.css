@@ -1,60 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
-
-
-body{background-color: #ffffff;}
-header {display: flex; }
-header img{
-    margin-top: 15px;margin-left:150px ;
+body {
+  background-color: #ffffff;
 }
-header nav ul{display: flex;flex-direction: row;list-style:none;margin-left:270px ;margin-top: 25px; }
- header nav ul li a{text-decoration: none;margin-right: 30px;}
- nav ul li{font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 10px;
-    font-family: 'Work Sans', sans-serif;
-    
-    
-    color: #222222;}
-nav ul .flex1 a{font-family: 'Work Sans', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 10px;
-    color: #0082F3;}
+header {
+  display: flex;
+}
+header img {
+  margin-top: 15px;
+  margin-left: 150px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 270px;
+  margin-top: 25px;
+}
+header nav ul li a {
+  text-decoration: none;
+  margin-right: 30px;
+}
+nav ul li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 10px;
+  font-family: "Work Sans", sans-serif;
 
-   
-    .sitbor p {background-color: #39CDCC;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        border-radius:  0px 6px 6px 0px;
-        transform: rotate(90deg);
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: normal;
-        font-family: 'Work Sans', sans-serif;
-        width: 86px;
-    height: 20px;
-    padding: 13px 25px;
-    margin-left: -52px;
-    margin-top:60px;
-    }
-    aside{display: flex;justify-content: space-around;}
-    aside .flex2 h1{
-         font-family: 'Work Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 55px;
-line-height: 60px;
-color: #333333;
-    }
-    aside .flex2 p{font-family: 'Work Sans', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        line-height: 35px;
-        color: #333333;}
-        aside .flex4,.flex5{
-            margin-top: 600px;
-        }
+  color: #222222;
+}
+nav ul .flex1 a {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 10px;
+  color: #0082f3;
+}
+
+.sitbor p {
+  background-color: #39cdcc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 6px 6px 0px;
+  transform: rotate(90deg);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  font-family: "Work Sans", sans-serif;
+  width: 86px;
+  height: 20px;
+  padding: 13px 25px;
+  margin-left: -52px;
+  margin-top: 60px;
+}
+#top1 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-top: 102px;
+}
+#top1 .flex2 h1 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 60px;
+  color: #333333;
+  max-width: 300px;
+}
+#top1 .flex2 p {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #333333;
+  max-width: 500px;
+}
+#top2 .flex3,
+.flex4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 500px;
+}
