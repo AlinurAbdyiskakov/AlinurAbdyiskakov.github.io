@@ -7,16 +7,16 @@ body {
 header {
   display: flex;
 }
-header img {
-  margin-top: 15px;
-  margin-left: 150px;
+header h1 img {
+  margin-top: 13px;
+  margin-left: 120px;
 }
 header nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-left: 270px;
-  margin-top: 25px;
+  margin-left: 130px;
+  margin-top: 45px;
 }
 header nav ul li a {
   text-decoration: none;
@@ -100,7 +100,7 @@ nav ul .flex1 a {
   margin-top: 200px;
 }
  .flex6 h1{ font-family: "Work Sans", sans-serif;
-    margin-top: 80px;
+    margin-top: 100px;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
@@ -113,7 +113,7 @@ section {
     display: flex;
     max-width: 997px;
     margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 60px;
     
   }
   section article img,h3,p{display: flex;justify-content: center;text-align: center;}
