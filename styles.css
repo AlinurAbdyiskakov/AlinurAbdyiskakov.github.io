@@ -1,2 +1,7 @@
 body{background-color: #ffffff;}
-header nav{display: flex;justify-content: space-between;}
+header {display: flex; }
+header img{
+    margin-top: 15px;margin-left:50px ;
+}
+header nav ul{display: flex;flex-direction: row;list-style:none;margin-left:270px ;margin-top: 25px; }
+ header nav ul li a{text-decoration: none;margin-right: 30px;}
