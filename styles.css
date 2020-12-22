@@ -70,6 +70,7 @@ nav ul .flex1 a {
 }
 #top1 .flex2 p {
   max-width: 500px;
+  text-align: justify;
   
 }
 .flex2 p,
@@ -92,6 +93,7 @@ nav ul .flex1 a {
 }
 #top2 .flex5 p {
   max-width: 300px;
+  text-align: justify;
 }
 #top2 .flex5 h1 {
   max-width: 600px;
@@ -137,7 +139,7 @@ section article {
   flex: 1 1 calc(33.33% - 100px);
   margin: 0 10px 25px;
   border-radius: 3px;
-  box-shadow: 0 0 5px 2px rgb(78, 75, 75);
+  box-shadow: 0 0 5px 1px rgb(78, 75, 75);
 }
 section article img {
   margin-top: 40px;
